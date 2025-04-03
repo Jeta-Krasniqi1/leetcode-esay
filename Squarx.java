@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 
 public class Squarx {
-    public int mySqrt(int x) {
+    public int mySqrt(int x) {          
         if (x < 2) return x; // Handle edge cases for 0 and 1
 
         int left = 0, right = x, result = 0;
